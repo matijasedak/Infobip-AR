@@ -2,13 +2,10 @@
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
 	<a-scene embedded arjs='sourceType: webcam;'>
-		<!-- below is for content -->
 		<a-assets>
-		<!-- id=“file name“ src=“file url" -->
-		<a-asset-item id="makery" src="https://cdn.rawgit.com/MakeryINFO/models-for-AR.js/master/makery.gltf"></a-asset-item>
+		<a-asset-item id="Dodge" src="https://rawgit.com/matijasedak/Infobip-AR/master/Dodge.glb"></a-asset-item>
 		</a-assets>
-		<!-- scale values allow you to adjust the file’s display size, gltf-model=“#your file name“ -->
-		<a-entity scale="20 20 20" gltf-model="#makery"></a-entity>
+		<a-entity scale="20 20 20" gltf-model="#Dodge"></a-entity>
 		<a-marker-camera preset='hiro'></a-marker-camera>
 	</a-scene>
 </body>
